@@ -165,9 +165,7 @@ The precedence is as follows:
 
 ## Custom network policy
 
-The sandbox restricts outbound network access via a policy allowlist.
-If your project needs to reach hosts beyond the defaults (e.g., for
-native addon builds), see the
+If this agent needs to reach hosts beyond the defaults, see the
 [custom network policy guide](network-policy.md).
 
 ## Source

@@ -97,10 +97,7 @@ If your project uses a custom image, update the `image:` field in both
 
 ## Custom network policy
 
-The fix agent uses its own network policy
-([`policies/fix.yaml`](../policies/fix.yaml)), which has similar but not
-identical defaults to the code agent's policy. If your project needs
-additional hosts whitelisted, see the
+If this agent needs to reach hosts beyond the defaults, see the
 [custom network policy guide](network-policy.md).
 
 ## What the agent acts on
